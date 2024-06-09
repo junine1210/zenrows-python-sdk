@@ -65,7 +65,7 @@ class ZenRowsClient:
             final_params["custom_headers"] = True
 
             final_headers["Accept"] = None
-            final_headers["Accept-Encoding"] = urllib3.util.SKIP_HEADER
+            #final_headers["Accept-Encoding"] = urllib3.util.SKIP_HEADER
             final_headers["Connection"] = None
         else:
             headers = {}
